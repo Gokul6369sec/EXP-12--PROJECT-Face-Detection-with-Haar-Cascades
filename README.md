@@ -60,9 +60,9 @@ import sys
 import numpy as np
 import cv2 
 import matplotlib.pyplot as plt
-model = cv2.imread('VIJAY.jpg',0)
-withglass = cv2.imread('83fe8b8d907f9b35f707d3a9488c77f1.jpg',0)
-group = cv2.imread('EVERY.jpg',0)
+model = cv2.imread('ARS.jpg',0)
+withglass = cv2.imread('kan.jpg',0)
+group = cv2.imread('sak.jpg',0)
 
 plt.figure(figsize=(20,10))
 plt.subplot(131);plt.imshow(cv2.resize(model, (1000, 1000)),cmap='gray');plt.title("Model")
@@ -241,11 +241,12 @@ plt.close(fig)
 
 ## Output:
 
-<img width="1606" height="519" alt="download" src="https://github.com/user-attachments/assets/dc8f7621-49d4-41b6-9b49-a4128d32d473" />
-<img width="366" height="656" alt="download" src="https://github.com/user-attachments/assets/08d07794-593a-4344-82b7-c2aa3a2021af" />
-<img width="482" height="656" alt="download" src="https://github.com/user-attachments/assets/f498d006-f0f0-47cc-a4c4-a18eb85f76b4" />
-<img width="482" height="656" alt="download" src="https://github.com/user-attachments/assets/e1f1b2c7-1b0e-4b87-a0f6-cc63c9c5db2e" />
-<img width="738" height="579" alt="download" src="https://github.com/user-attachments/assets/de4b2f6e-07b7-45ab-86f1-2b4d0c787412" />
+<img width="1606" height="521" alt="download" src="https://github.com/user-attachments/assets/015ecf08-424f-46ca-997e-9f659461c07a" />
+<img width="794" height="556" alt="download" src="https://github.com/user-attachments/assets/b11732d5-bc7d-4832-8699-fc9345244d65" />
+<img width="794" height="558" alt="download" src="https://github.com/user-attachments/assets/99eff46b-d534-41b7-8a40-e52e9013ceaf" />
+<img width="794" height="556" alt="download" src="https://github.com/user-attachments/assets/8f10b16d-ed83-4c57-8f20-9bdd7eff67f7" />
+<img width="738" height="581" alt="download" src="https://github.com/user-attachments/assets/9903edd3-e665-4b47-aa57-226ae9b5cba1" />
+
 
 
 
